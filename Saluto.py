@@ -15,5 +15,4 @@ class Saluto:
         return self.testo + " a " + self.destinatario
     
 if __name__ == "__main__":
-    saluto1 = Saluto() 
-    print(saluto1.getSaluto())
+    print(Saluto().getSaluto())
